@@ -25,5 +25,6 @@ func main() {
 	_ = http.ListenAndServe("0.0.0.0:6061", nil)
 }
 
-// go build mutex_profiling.go
+// 在本文件所在文件夹下
+// go run mutex_profiling.go
 // go tool pprof http://localhost:6061/debug/pprof/mutex

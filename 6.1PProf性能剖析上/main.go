@@ -25,8 +25,8 @@ func Add(str string) int {
 	return len(datas)
 }
 
-// go build main.go
-// ./main
+// 在本文件所在文件夹下
+// go run main.go
 
 // 通过浏览器访问
 // http://127.0.0.1:6060/debug/pprof/
