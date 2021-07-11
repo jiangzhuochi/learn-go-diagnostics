@@ -42,3 +42,11 @@ func Add(str string) int {
 // 下同
 // （2）Heap
 // （3）Goroutine
+
+// 6.1.2.4 查看可视化界面
+// 参考
+// http://support.moonpoint.com/os/windows/PowerShell/wget-curl.php
+// https://techcommunity.microsoft.com/t5/windows-powershell/why-is-wget-no-longer-an-alias-for-invoke-webrequest/m-p/1282929
+// PowerShell 下运行命令
+// Invoke-WebRequest -OutFile profile http://127.0.0.1:6060/debug/pprof/profile
+// go tool pprof -http=:6001 profile
